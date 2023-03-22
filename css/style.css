@@ -5,9 +5,33 @@
 }
 
 /* header */
+header{
+    max-width: 100%;
+}
 
 /* corpo centrale */
+section{
+    width: 80%;
+    margin: auto;
+}
 
 /* footer */
+footer{
+    max-width: 100%;
+}
 
 /* DEBUG */
+header{
+    height: 100px;
+    background-color: orange;
+}
+
+section{
+    height: 250px;
+    background-color: aqua;
+}
+
+footer{
+    height: 180px;
+    background-color: blue;
+}
