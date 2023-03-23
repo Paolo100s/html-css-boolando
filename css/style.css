@@ -23,10 +23,6 @@ a{
     color: #fff;
 }
 
-main{
-    margin-top: 100px;
-}
-
 /* header */
 header{
     width: 100%;
@@ -53,9 +49,87 @@ header nav{
 }
 
 /* corpo centrale */
+main{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
 section{
     width: 80%;
     margin: auto;
+}
+
+.row{
+}
+
+article{
+    cursor: pointer;
+}
+
+
+/* card */
+.card{
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.main-image{
+    width: 100%;
+}
+
+.secondary-image{
+    display: none;
+    width: 100%;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+    padding: 5px 15px;
+    background-color: #fff;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.lable{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+
+/* text */
+.discount{
+    background-color: red;
+}
+
+.sustainability{
+    background-color: green;
+}
+
+.discount, .sustainability{
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.mark{
+    font-size: 12px;
+}
+
+.price{
+    color: red;
+}
+
+.original-price{
+    text-decoration: line-through;
+}
+
+.text span{
+    font-size: 12px;
 }
 
 /* footer */
@@ -76,7 +150,7 @@ nav h4{
     color: #fff;
 }
 
-footer h3,h4{
+footer h3, footer h4{
     padding-bottom: 10px;
 }
 
@@ -86,10 +160,10 @@ footer h3,h4{
     background-color: orange;
 } */
 
-section{
+/* section{
     height: 250px;
     background-color: aqua;
-}
+} */
 
 /* footer{
     height: 180px;
