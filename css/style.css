@@ -64,6 +64,22 @@ footer{
     background-color: #1a1a1a;
 }
 
+footer nav{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h4{
+    color: #fff;
+}
+
+footer h3,h4{
+    padding-bottom: 10px;
+}
+
 /* DEBUG */
 /* header{
     height: 100px;
@@ -75,7 +91,7 @@ section{
     background-color: aqua;
 }
 
-footer{
+/* footer{
     height: 180px;
-    /* background-color: blue; */
-}
+    background-color: blue;
+} */
