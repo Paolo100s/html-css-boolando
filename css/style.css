@@ -80,9 +80,17 @@ article{
     width: 100%;
 }
 
+.main-image:hover{
+    display: none;
+}
+
 .secondary-image{
     display: none;
     width: 100%;
+}
+
+.secondary-image:hover{
+    display: inline-block;
 }
 
 .heart{
