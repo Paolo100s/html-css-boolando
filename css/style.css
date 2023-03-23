@@ -4,9 +4,52 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    color: #fff;
+    padding: 0 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    margin-top: 100px;
+}
+
 /* header */
 header{
-    max-width: 100%;
+    width: 100%;
+    background-color: #ff6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+}
+
+header nav{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 130px;
+    height: 35px;
 }
 
 /* corpo centrale */
@@ -18,13 +61,14 @@ section{
 /* footer */
 footer{
     max-width: 100%;
+    background-color: #1a1a1a;
 }
 
 /* DEBUG */
-header{
+/* header{
     height: 100px;
     background-color: orange;
-}
+} */
 
 section{
     height: 250px;
@@ -33,5 +77,5 @@ section{
 
 footer{
     height: 180px;
-    background-color: blue;
+    /* background-color: blue; */
 }
