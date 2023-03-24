@@ -80,7 +80,7 @@ article{
     width: 100%;
 }
 
-.main-image:hover{
+.card:hover .main-image{
     display: none;
 }
 
@@ -89,7 +89,7 @@ article{
     width: 100%;
 }
 
-.secondary-image:hover{
+.card:hover .secondary-image{
     display: inline-block;
 }
 
